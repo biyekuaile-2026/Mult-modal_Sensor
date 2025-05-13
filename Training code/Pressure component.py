@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import joblib
 
 # Step 1: Load data
-file_path = r'Pressure data_data.xlsx'  # Modify training data path
+file_path = r'Pressure data.xlsx'  # Modify training data path
 data = pd.read_excel(file_path)
 
 # Assume the column names are 'T(℃)', 'Cp(F)', 'Pressure(kPa)'
